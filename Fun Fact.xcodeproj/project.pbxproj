@@ -13,6 +13,8 @@
 		866B588A1E172F1000892AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866B58881E172F1000892AFA /* Main.storyboard */; };
 		866B588C1E172F1000892AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866B588B1E172F1000892AFA /* Assets.xcassets */; };
 		866B588F1E172F1000892AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866B588D1E172F1000892AFA /* LaunchScreen.storyboard */; };
+		866B58981E173B2000892AFA /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 866B58971E173B2000892AFA /* FactBook.m */; };
+		86708A721E178647008E5BAA /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86708A711E178646008E5BAA /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		866B588B1E172F1000892AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		866B588E1E172F1000892AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		866B58901E172F1000892AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866B58961E173B2000892AFA /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		866B58971E173B2000892AFA /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		86708A701E178646008E5BAA /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		86708A711E178646008E5BAA /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				866B58831E172F1000892AFA /* AppDelegate.m */,
 				866B58851E172F1000892AFA /* ViewController.h */,
 				866B58861E172F1000892AFA /* ViewController.m */,
+				866B58961E173B2000892AFA /* FactBook.h */,
+				866B58971E173B2000892AFA /* FactBook.m */,
+				86708A701E178646008E5BAA /* ColorWheel.h */,
+				86708A711E178646008E5BAA /* ColorWheel.m */,
 				866B58881E172F1000892AFA /* Main.storyboard */,
 				866B588B1E172F1000892AFA /* Assets.xcassets */,
 				866B588D1E172F1000892AFA /* LaunchScreen.storyboard */,
@@ -153,7 +163,9 @@
 			files = (
 				866B58871E172F1000892AFA /* ViewController.m in Sources */,
 				866B58841E172F1000892AFA /* AppDelegate.m in Sources */,
+				866B58981E173B2000892AFA /* FactBook.m in Sources */,
 				866B58811E172F1000892AFA /* main.m in Sources */,
+				86708A721E178647008E5BAA /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +322,7 @@
 				866B58951E172F1000892AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
